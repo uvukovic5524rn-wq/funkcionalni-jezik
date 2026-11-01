@@ -1,0 +1,5 @@
+// zbir brojeva od 1 do nekog broja 
+// npr. zbir(4) = 10 (1+2+3+4)
+
+zbir(0) = 0
+zbir(n) = n + zbir(n-1)

@@ -1,0 +1,11 @@
+// tejlorov razvoj za e^x do n-tog clana
+// npr. eksp(1.0, 10) = 2.718
+
+faktorijal(0) = 1
+faktorijal(n) = n * faktorijal(n - 1)
+
+stepenR(x, 0) = 1.0
+stepenR(x, n) = x * stepenR(x, n-1)
+
+eksp(x, 0) = 1.0
+eksp(x, n) = eksp(x, n-1) + stepenR(x, n) / faktorijal(n)

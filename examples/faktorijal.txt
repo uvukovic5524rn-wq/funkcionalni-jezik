@@ -1,0 +1,5 @@
+// racuna faktorijal nekog broja (n!)
+// npr. faktorijal(5) = 120
+
+faktorijal(0) = 1
+faktorijal(n) = n * faktorijal(n-1)

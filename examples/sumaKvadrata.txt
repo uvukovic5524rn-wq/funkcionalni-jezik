@@ -1,0 +1,5 @@
+// zbir kvadrata brojeva od 1 do nekog broja
+// npr. sumaKvadrata(3) = 14
+
+sumaKvadrata(0) = 0
+sumaKvadrata(n) = n * n + sumaKvadrata(n - 1)

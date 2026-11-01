@@ -1,0 +1,6 @@
+// vraca n-ti fibonacijev broj
+// npr. fibonaci(6) = 8
+
+fibonaci(0) = 0
+fibonaci(1) = 1
+fibonaci(n) = fibonaci(n-1) + fibonaci(n-2)

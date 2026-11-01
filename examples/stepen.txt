@@ -1,0 +1,5 @@
+// podize x na ceo nenegativan stepen n
+// npr. stepen(2, 5) = 32
+
+stepen(x, 0) = 1
+stepen(x, n) = x * stepen(x, n-1)

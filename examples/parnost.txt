@@ -1,0 +1,10 @@
+// jeParan vraca 1 ako je broj paran, a ako nije vraca 0
+// jeNeparan vraca 1 ako je broj neparan, a ako nije vraca 0
+// npr. jeParan(2) = 1, jeNeparan(2) = 0
+// npr. jeNeparan(3) = 1, jeParan(3) = 0
+
+jeParan(0) = 1
+jeParan(1) = 0
+jeParan(n) = jeParan(n - 2)
+
+jeNeparan(n) = 1 - jeParan(n)

@@ -1,0 +1,5 @@
+// zbir cifara broja
+// npr. zbirCifara(123) = 6 (1+2+3)
+
+zbirCifara(0) = 0
+zbirCifara(n) = n % 10 + zbirCifara(n/10)

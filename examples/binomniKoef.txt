@@ -1,0 +1,6 @@
+// binomni koeficijent - na koliko nacina se bira k od n elemenata
+// npr. binomniKoef(4, 2) = 6
+
+binomniKoef(n, 0) = 1
+binomniKoef(0, k) = 0
+binomniKoef(n, k) = binomniKoef(n - 1, k - 1) + binomniKoef(n - 1, k)
